@@ -64,7 +64,6 @@ body{
 .promo-yellow{ background: linear-gradient(135deg, #ffd24d, #ffcc00); color:#003; }
 .promo-grey{background: linear-gradient(135deg, #e0dfdc, #e0dfdc); color:#003;}
 
-.product-card { border-radius:14px; overflow:hidden; background:#fff; border: 1px solid #f0f0f0; padding:1rem; }
 .product-thumb{ border-radius:12px; background:#fafafa; padding:1rem; display:flex; align-items:center; justify-content:center; height:190px; }
 .price { color:var(--accent); font-weight:700; font-size:1.1rem; }
 .price del { color:#bdbdbd; margin-left:0.6rem; font-weight:400; }
@@ -206,4 +205,19 @@ body{
   .footer-row {
     grid-template-columns: 1fr;
   }
+}
+.badge-count {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    background-color: #FFD000; 
+    color: black;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
 }
